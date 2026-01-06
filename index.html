@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko MakeUp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">Toko MakeUp</div>
+
+  <ul class="nav-links" id="navLinks">
+    <li>Home</li>
+    <li>Produk</li>
+    <li>Chat</li>
+  </ul>
+
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <h1>Temukan MakeUp Terbaikmu</h1>
+    <p>
+      Toko MakeUp membantu kamu menemukan rekomendasi produk kecantikan
+      yang sesuai dengan kebutuhan kulitmu melalui beauty assistant.
+    </p>
+    <button class="hero-btn" id="startChat">Mulai Konsultasi</button>
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="info">
+    <h2>Tentang Toko MakeUp</h2>
+    <p>
+      Website ini menyediakan layanan konsultasi make up secara interaktif
+      dan terhubung langsung dengan sistem AI melalui n8n.
+    </p>
+  </section>
+
+  <section class="chatbox" id="chatbox">
+    <header class="chat-header">Beauty Assistant</header>
+
+    <div class="chat-messages" id="chatMessages">
+      <div class="bot">
+        Halo 👋 Aku Beauty Assistant. Tanyakan rekomendasi make up favoritmu!
+      </div>
+    </div>
+
+    <div class="chat-input">
+      <input type="text" id="messageInput" placeholder="Tanya seputar make up...">
+      <button id="sendBtn">Kirim</button>
+    </div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
